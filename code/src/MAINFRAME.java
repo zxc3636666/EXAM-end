@@ -8,13 +8,7 @@ import java.awt.event.*;
 
 import javax.swing.*;
 
-import javax.swing.event.AncestorEvent;
-
-import javax.swing.event.AncestorListener;
-
-import javax.xml.soap.Text;
-
-public class MAINFRAME extends JFrame {
+public class MAINFRAME extends JFrame{
 
     private Container cp;
 
@@ -26,21 +20,21 @@ public class MAINFRAME extends JFrame {
 
     private JLabel jlb4 = new JLabel();
 
-    private JLabel jlb5 = new JLabel("規則");
+    private JLabel jlb5 = new JLabel("玩法");
 
     private JLabel jlb6 = new JLabel("計分");
 
     private JLabel jlb7 = new JLabel("請先輸入使用者名稱,進入遊戲畫面後,");
 
-    private JLabel jlb8 = new JLabel("按下start後開始遊戲吹氣球,");
+    private JLabel jlb8 = new JLabel("按下START後開始遊戲吹氣球,");
 
-    private JLabel jlb9 = new JLabel("如欲停止吹氣請方開start終止吹氣!!");
+    private JLabel jlb9 = new JLabel("如欲停止吹氣請按下STOP終止吹氣!!");
 
-    private JLabel jlb10 = new JLabel("當吹氣超過電腦亂數值,將積分扣回,");
+    private JLabel jlb10 = new JLabel("當吹氣超過電腦亂數值會顯示氣球爆裂,");
 
-    private JLabel jlb11 = new JLabel("反之,如果未達電腦亂數值則酌量給分,");
+    private JLabel jlb11 = new JLabel("反之,如果未達電腦亂數值則顯示未爆裂,");
 
-    private JLabel jlb12 = new JLabel("當吹氣值與亂數值相同時則給滿分10分!" );
+    private JLabel jlb12 = new JLabel("那麼就開始遊戲吧!!加油~~" );
 
     private JTextField jlf = new JTextField();
 
